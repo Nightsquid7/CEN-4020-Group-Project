@@ -23,3 +23,15 @@
 ## 11/20 - **11/27**
 
 ## 11/27 - **12/06 - Final project on the sixth**
+
+
+### Roles
+ - graphics
+ - menu
+ - gun mechanics
+ - Visual Assets {
+    - map
+    - characters/enemies
+    - guns
+ }
+ 
