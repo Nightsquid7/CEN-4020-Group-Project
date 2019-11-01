@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems; // for inventory
 
 public class ItemPickup : MonoBehaviour
 {
@@ -28,6 +29,8 @@ public class ItemPickup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        // for Inventory
+        if (EventSystem.current.IsPointerOverGameObject())
+            return;
     }
 }
