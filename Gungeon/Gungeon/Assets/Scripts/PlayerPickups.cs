@@ -31,10 +31,12 @@ public class PlayerPickups : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Coin"))
+
         {
+            Debug.Log("Inside player script pick up coin");
             //SoundManagerScript.PlaySound("CoinPickUp");
             //Destroy(collision.gameObject);
-            collision.gameObject.SetActive(false);
+            //collision.gameObject.SetActive(false);
             ++money;
             SetMoneyText();
         }
